@@ -60,7 +60,7 @@ Backend Engineering
 |                    |                             | **Raft / Dynamo / Spanner Papers**                                               | 📄 Deep Dive | As needed   |
 | **Software**       | **Software Engineering**    | **A Philosophy of Software Design**                                              | 📘 Learn     | **Core**    |
 |                    |                             | **Refactoring — Martin Fowler**                                                  | 📘 Learn     | Recommended |
-|                    | ↳ **Testing**               | **Martin Fowler — Testing**                                                      | 📘 Learn     | **Core**    |
+|                    | ↳ **Testing**               | **Martin Fowler — Testing Articles**                                             | 📘 Learn     | **Core**    |
 |                    |                             | **JUnit User Guide**                                                             | 📖 Reference | **Core**    |
 |                    |                             | **Testcontainers Documentation**                                                 | 📖 Reference | Recommended |
 |                    |                             | **Mockito Documentation**                                                        | 📖 Reference | As needed   |
@@ -106,7 +106,7 @@ Fundamentals
 
 Software
 ├─ Software Engineering      → A Philosophy of Software Design
-│  ├─ Testing                → Martin Fowler — Testing
+│  ├─ Testing                → Martin Fowler — Testing Articles
 │  └─ CI/CD
 ├─ Java                      → Effective Java
 ├─ JVM
