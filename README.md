@@ -1,57 +1,108 @@
+### Knowledge Map
+
 ```
 Backend Engineering
 │
-├─ Fundamentals
-│  ├─ Computer Networking
-│  ├─ Computer Systems
-│  └─ Distributed Systems
+├── Fundamentals
+│   ├── Computer Networking
+│   ├── Computer Systems
+│   └── Distributed Systems
 │
-├─ Software
-│  ├─ Software Engineering
-│  ├─ Java
-│  ├─ JVM
-│  ├─ Spring
-│  └─ Data
+├── Software
+│   ├── Software Engineering
+│   │   └── CI/CD
+│   │
+│   ├── Java
+│   ├── JVM
+│   ├── Spring
+│   │
+│   └── Data
+│       ├── Database
+│       ├── ORM
+│       ├── Cache
+│       ├── Messaging / Streaming
+│       └── Search
 │
-├─ Production
-│  ├─ Security
-│  └─ Observability
+├── Production
+│   ├── Security
+│   └── Observability
 │
-└─ Infrastructure
-   ├─ AWS
-   └─ Kubernetes
+└── Infrastructure
+    ├── AWS
+    └── Kubernetes
 ```
 
-| Category           | Topic                    | Information Sources                                          | 용도                                          |
-| ------------------ | ------------------------ | ------------------------------------------------------------ | ------------------------------------------- |
-| **Fundamentals**   | **Computer Networking**  | **Kurose & Ross – Computer Networking: A Top-Down Approach** | 📘 체계적 학습                                   |
-|                    |                          | **MDN Web Docs**                                             | 📖 Web/HTTP 실무 reference                    |
-|                    |                          | **RFC 9110 / 9111 / 9112**                                   | 📜 HTTP source of truth                     |
-|                    | **Computer Systems**     | **CSAPP – Computer Systems: A Programmer's Perspective**     | 📘 체계적 학습                                   |
-|                    | **Distributed Systems**  | **DDIA – Designing Data-Intensive Applications**             | 📘 Core                                     |
-|                    |                          | **Raft / Dynamo / Spanner 등 주요 papers**                      | 📄 Deep dive                                |
-| **Software**       | **Software Engineering** | **A Philosophy of Software Design**                          | 📘 Design / complexity                      |
-|                    |                          | **Refactoring – Martin Fowler**                              | 📘 Code evolution                           |
-|                    |                          | **CI/CD 관련 source TBD**                                      | 🔧 Build / Test / CI/CD                     |
-|                    | **Java**                 | **Effective Java**                                           | 📘 Core                                     |
-|                    |                          | **JLS – Java Language Specification**                        | 📜 Source of truth                          |
-|                    | **JVM**                  | **JVMS – Java Virtual Machine Specification**                | 📜 Source of truth                          |
-|                    |                          | **Java Performance – Scott Oaks**                            | 📘 GC/JIT/performance                       |
-|                    | **Spring**               | **Spring Start Here**                                        | 📘 Core / mental model                      |
-|                    |                          | **Spring Framework / Spring Boot Docs**                      | 📖 Official reference                       |
-|                    | **Data**                 | **DDIA**                                                     | 📘 Data systems의 원리                         |
-|                    | ↳ Database               | 사용하는 DB의 **Official Docs**                                   | 📖 PostgreSQL/MySQL 등                       |
-|                    | ↳ Cache                  | **Redis Docs** 등                                             | 📖 Technology reference                     |
-|                    | ↳ Messaging / Streaming  | **Kafka Docs** 등                                             | 📖 Technology reference                     |
-|                    | ↳ Search                 | **Elasticsearch / OpenSearch Docs** 등                        | 📖 Technology reference                     |
-| **Production**     | **Security**             | **OWASP Top 10**                                             | 📘 Security overview                        |
-|                    |                          | **OWASP Cheat Sheet Series**                                 | 📖 실무 reference                             |
-|                    |                          | **OWASP ASVS**                                               | 📜 Requirements / verification              |
-|                    | **Observability**        | **Google SRE Book**                                          | 📘 Reliability/operations 원리                |
-|                    |                          | **OpenTelemetry Docs**                                       | 📖 Metrics / traces / logs reference        |
-| **Infrastructure** | **AWS**                  | **Adrian Cantrill SAA → SAP**                                | 🎓 체계적 학습                                   |
-|                    |                          | **AWS Documentation**                                        | 📖 Official reference                       |
-|                    |                          | **AWS Well-Architected Framework**                           | 📘 Architecture principles                  |
-|                    |                          | **Amazon Builders' Library**                                 | 📄 Production/distributed systems deep dive |
-|                    | **Kubernetes**           | **Kubernetes Official Docs**                                 | 📖 Source of truth                          |
-|                    |                          | **Learning source TBD**                                      | 📘 체계적 학습                                   |
+### Information Sources
+
+📘 Learn: 한 번 체계적으로 공부할 가치가 큼
+📖 Reference: 필요할 때 찾아보는 것으로 충분
+📜 Spec: 정확한 의미가 필요할 때 내려가는 source of truth
+📄 Deep Dive: 관심/문제가 생겼을 때
+🎓 Course: 강의가 책보다 적합
+
+| Category           | Topic                       | Information Source                                                | Type              | 우선도              |
+| ------------------ | --------------------------- | ----------------------------------------------------------------- | ----------------- | ---------------- |
+| **Fundamentals**   | **Computer Networking**     | **Kurose & Ross — Computer Networking: A Top-Down Approach**      | 📘 Learn          | **Core**         |
+|                    |                             | **MDN Web Docs**                                                  | 📖 Reference      | Core             |
+|                    |                             | **RFC 9110 / 9111 / 9112**                                        | 📜 Spec           | 필요 시             |
+|                    | **Computer Systems**        | **CSAPP — Computer Systems: A Programmer's Perspective**          | 📘 Learn          | **Core**         |
+|                    | **Distributed Systems**     | **DDIA — Designing Data-Intensive Applications**                  | 📘 Learn          | **Core**         |
+|                    |                             | **Raft / Dynamo / Spanner papers**                                | 📄 Deep Dive      | 필요 시             |
+| **Software**       | **Software Engineering**    | **A Philosophy of Software Design**                               | 📘 Learn          | **Core**         |
+|                    |                             | **Refactoring — Martin Fowler**                                   | 📘 Learn / Ref    | 추천               |
+|                    |                             | **Continuous Delivery — Humble & Farley**                         | 📘 Learn          | 선택               |
+|                    |                             | **Martin Fowler — Software Delivery / CI articles**               | 📖 Reference      | 추천               |
+|                    | **Java**                    | **Effective Java**                                                | 📘 Learn          | **Core**         |
+|                    |                             | **JLS — Java Language Specification**                             | 📜 Spec           | 필요 시             |
+|                    | **JVM**                     | **Java Performance — Scott Oaks**                                 | 📘 Learn          | 추천               |
+|                    |                             | **JVMS — Java Virtual Machine Specification**                     | 📜 Spec           | 필요 시             |
+|                    |                             | **OpenJDK Documentation**                                         | 📖 Reference      | 필요 시             |
+|                    | **Spring**                  | **Spring Start Here**                                             | 📘 Learn          | **Core**         |
+|                    |                             | **Spring Framework / Boot Docs**                                  | 📖 Reference      | **Core**         |
+|                    | **Data**                    | **DDIA**                                                          | 📘 Learn          | **Core**         |
+|                    | ↳ **Database**              | 사용하는 DB의 **Official Documentation**                               | 📖 Reference      | **Core**         |
+|                    |                             | PostgreSQL이라면 transaction / MVCC / locking / indexes / EXPLAIN 중심 | 📖 Reference      | 추천               |
+|                    | ↳ **ORM**                   | **Hibernate Introduction / ORM User Guide**                       | 📘 Learn + 📖 Ref | **Core**         |
+|                    |                             | **Jakarta Persistence Specification**                             | 📜 Spec           | 필요 시             |
+|                    |                             | **Spring Data JPA Docs**                                          | 📖 Reference      | **Core**         |
+|                    |                             | **High-Performance Java Persistence**                             | 📘 Deep Learn     | 선택               |
+|                    | ↳ **Cache**                 | **Redis Docs**                                                    | 📖 Reference      | 충분               |
+|                    | ↳ **Messaging / Streaming** | **Kafka Docs**                                                    | 📖 Reference      | **Core if used** |
+|                    | ↳ **Search**                | **OpenSearch / Elasticsearch Docs**                               | 📖 Reference      | 충분               |
+| **Production**     | **Security**                | **OWASP Top 10**                                                  | 📘 Overview       | **Core**         |
+|                    |                             | **OWASP Cheat Sheet Series**                                      | 📖 Reference      | **Core**         |
+|                    |                             | **OWASP ASVS**                                                    | 📜 Standard       | 필요 시             |
+|                    | **Observability**           | **Google SRE Book**                                               | 📘 Learn          | **Core**         |
+|                    |                             | **OpenTelemetry Docs**                                            | 📖 Reference      | **Core**         |
+| **Infrastructure** | **AWS**                     | **Adrian Cantrill SAA → SAP**                                     | 🎓 Learn          | **Core**         |
+|                    |                             | **AWS Documentation**                                             | 📖 Reference      | **Core**         |
+|                    |                             | **AWS Well-Architected Framework**                                | 📘 Architecture   | 추천               |
+|                    |                             | **Amazon Builders' Library**                                      | 📄 Deep Dive      | 추천               |
+|                    | **Kubernetes**              | **Kubernetes Basics + Concepts**                                  | 📘 Learn          | **Core**         |
+|                    |                             | **Kubernetes Tasks / Reference / API Docs**                       | 📖 Reference      | **Core**         |
+
+
+### primary learning track
+
+```
+Fundamentals
+├─ Networking             → Kurose & Ross
+├─ Computer Systems       → CSAPP
+└─ Distributed Systems    → DDIA
+
+Software
+├─ Software Engineering   → A Philosophy of Software Design
+├─ Java                   → Effective Java
+├─ JVM                    → Java Performance
+├─ Spring                 → Spring Start Here
+└─ Data
+   └─ ORM                 → Hibernate Introduction
+
+Production
+├─ Security               → OWASP Top 10
+└─ Observability          → Google SRE
+
+Infrastructure
+├─ AWS                    → Cantrill SAA → SAP
+└─ Kubernetes             → Kubernetes Basics → Concepts
+```
