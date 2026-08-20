@@ -82,7 +82,7 @@ Backend Engineering
 |                    |                             | **Kubernetes Tasks / Reference / API Docs**                       | 📖 Reference      | **Core**         |
 
 
-### primary learning track
+### Primary Learning Track
 
 ```
 Fundamentals
