@@ -34,11 +34,11 @@ Backend Engineering
 
 ### Information Sources
 
-📘 Learn: 한 번 체계적으로 공부할 가치가 큼
-📖 Reference: 필요할 때 찾아보는 것으로 충분
-📜 Spec: 정확한 의미가 필요할 때 내려가는 source of truth
-📄 Deep Dive: 관심/문제가 생겼을 때
-🎓 Course: 강의가 책보다 적합
+- 📘 Learn: 한 번 체계적으로 공부할 가치가 큼
+- 📖 Reference: 필요할 때 찾아보는 것으로 충분
+- 📜 Spec: 정확한 의미가 필요할 때 내려가는 source of truth
+- 📄 Deep Dive: 관심/문제가 생겼을 때
+- 🎓 Course: 강의가 책보다 적합
 
 | Category           | Topic                       | Information Source                                                | Type              | 우선도              |
 | ------------------ | --------------------------- | ----------------------------------------------------------------- | ----------------- | ---------------- |
