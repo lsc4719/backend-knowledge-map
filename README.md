@@ -96,27 +96,33 @@ Backend Engineering
 |                    |                             | **Kubernetes Tasks / Reference / API Documentation**                             | 📖 Reference | **Core**    |
 
 
-### Primary Learning Track
+### Primary Learning Track = Priority: Core AND Type: Learn or Course
 
 ```
 Fundamentals
-├─ Networking             → Kurose & Ross
-├─ Computer Systems       → CSAPP
-└─ Distributed Systems    → DDIA
+├─ Computer Networking       → Kurose & Ross
+├─ Computer Systems          → CSAPP
+└─ Distributed Systems       → DDIA
 
 Software
-├─ Software Engineering   → A Philosophy of Software Design
-├─ Java                   → Effective Java
-├─ JVM                    
-├─ Spring                 → Spring Start Here
-└─ Data
-   └─ ORM                 → Hibernate Introduction
+├─ Software Engineering      → A Philosophy of Software Design
+│  ├─ Testing                → Martin Fowler — Testing
+│  └─ CI/CD
+├─ Java                      → Effective Java
+├─ JVM
+├─ Spring                    → Spring Start Here
+└─ Data                      → DDIA
+   ├─ Database
+   ├─ ORM
+   ├─ Cache
+   ├─ Messaging / Streaming
+   └─ Search
 
 Production
-├─ Security               → OWASP Top 10
-└─ Observability           
+├─ Security                  → OWASP Top 10
+└─ Observability             → Site Reliability Engineering
 
 Infrastructure
-├─ AWS                    → Cantrill SAA → SAP
-└─ Kubernetes             → Kubernetes Basics → Concepts
+├─ AWS                       → Cantrill SAA → SAP
+└─ Kubernetes                → Kubernetes Basics → Concepts
 ```
