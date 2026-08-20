@@ -93,14 +93,14 @@ Fundamentals
 Software
 ├─ Software Engineering   → A Philosophy of Software Design
 ├─ Java                   → Effective Java
-├─ JVM                    → Java Performance
+├─ JVM                    → ...
 ├─ Spring                 → Spring Start Here
 └─ Data
    └─ ORM                 → Hibernate Introduction
 
 Production
 ├─ Security               → OWASP Top 10
-└─ Observability          → Google SRE
+└─ Observability          → ...
 
 Infrastructure
 ├─ AWS                    → Cantrill SAA → SAP
