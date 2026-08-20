@@ -32,9 +32,6 @@ Backend Engineering
     ├── AWS
     └── Kubernetes
 ```
-
-### Resources
-
 ### Resources
 
 | Type             | 의미                                      |
@@ -69,6 +66,7 @@ Backend Engineering
 |                    | ↳ **CI/CD**                 | **Continuous Delivery — Humble & Farley**                                        | 📘 Learn     | Recommended |
 |                    |                             | **Martin Fowler — Continuous Integration / Delivery**                            | 📖 Reference | Recommended |
 |                    | **Java**                    | **Effective Java**                                                               | 📘 Learn     | **Core**    |
+|                    |                             | **dev.java — Learn Java**                                                        | 📖 Reference | **Core**    |
 |                    |                             | **Java Language Specification (JLS)**                                            | 📜 Spec      | As needed   |
 |                    | **JVM**                     | **Java Performance — Scott Oaks**                                                | 📘 Learn     | Recommended |
 |                    |                             | **Java Virtual Machine Specification (JVMS)**                                    | 📜 Spec      | As needed   |
@@ -102,7 +100,6 @@ Backend Engineering
 |                    |                             | **Amazon Builders' Library**                                                     | 📄 Deep Dive | Recommended |
 |                    | **Kubernetes**              | **Kubernetes Basics / Concepts**                                                 | 📘 Learn     | **Core**    |
 |                    |                             | **Kubernetes Tasks / Reference / API Documentation**                             | 📖 Reference | **Core**    |
-
 ### Primary Learning Track = Priority: Core AND Type: Learn or Course
 
 ```
