@@ -33,7 +33,7 @@ Backend Engineering
     └── Kubernetes
 ```
 
-### Information Sources
+### Resources
 
 | Type             | 의미                    |
 | ---------------- | --------------------- |
