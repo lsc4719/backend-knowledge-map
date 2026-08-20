@@ -35,20 +35,22 @@ Backend Engineering
 
 ### Resources
 
-| Type             | 의미                    |
-| ---------------- | --------------------- |
-| 📘 **Learn**     | 처음부터 체계적으로 학습할 자료     |
-| 📖 **Reference** | 필요할 때 찾아보는 공식 문서/레퍼런스 |
-| 📜 **Spec**      | 표준, 명세, specification |
-| 📄 **Deep Dive** | 기본 학습 이후 더 깊게 파고들 자료  |
-| 🎓 **Course**    | 강의 기반 학습 자료           |
+### Resources
 
-| Priority        | 의미                  |
-| --------------- | ------------------- |
-| **Core**        | 백엔드 엔지니어라면 우선적으로 학습 |
-| **Recommended** | Core 이후 학습하면 좋은 자료  |
-| **As needed**   | 실제 필요가 생겼을 때 참고     |
-| **Optional**    | 관심/상황에 따라 선택        |
+| Type             | 의미                                      |
+| ---------------- | ----------------------------------------- |
+| 📘 **Learn**     | 처음부터 체계적으로 학습할 자료           |
+| 📖 **Reference** | 필요할 때 찾아보는 공식 문서/레퍼런스     |
+| 📜 **Spec**      | 표준, 명세, specification                 |
+| 📄 **Deep Dive** | 기본 학습 이후 더 깊게 파고들 자료        |
+| 🎓 **Course**    | 강의 기반 학습 자료                       |
+
+| Priority        | 의미                                      |
+| --------------- | ----------------------------------------- |
+| **Core**        | 백엔드 엔지니어라면 우선적으로 학습       |
+| **Recommended** | Core 이후 학습하면 좋은 자료              |
+| **As needed**   | 실제 필요가 생겼을 때 참고                |
+| **Optional**    | 관심/상황에 따라 선택                     |
 
 | Category           | Topic                       | Resource                                                                         | Type         | Priority    |
 | ------------------ | --------------------------- | -------------------------------------------------------------------------------- | ------------ | ----------- |
@@ -60,7 +62,7 @@ Backend Engineering
 |                    |                             | **Raft / Dynamo / Spanner Papers**                                               | 📄 Deep Dive | As needed   |
 | **Software**       | **Software Engineering**    | **A Philosophy of Software Design**                                              | 📘 Learn     | **Core**    |
 |                    |                             | **Refactoring — Martin Fowler**                                                  | 📘 Learn     | Recommended |
-|                    | ↳ **Testing**               | **Martin Fowler — Testing Articles**                                             | 📘 Learn     | **Core**    |
+|                    | ↳ **Testing**               | **Martin Fowler — Testing Articles**                                             | 📄 Deep Dive | Recommended |
 |                    |                             | **JUnit User Guide**                                                             | 📖 Reference | **Core**    |
 |                    |                             | **Testcontainers Documentation**                                                 | 📖 Reference | Recommended |
 |                    |                             | **Mockito Documentation**                                                        | 📖 Reference | As needed   |
@@ -73,9 +75,15 @@ Backend Engineering
 |                    |                             | **OpenJDK Documentation**                                                        | 📖 Reference | As needed   |
 |                    | **Spring**                  | **Spring Start Here**                                                            | 📘 Learn     | **Core**    |
 |                    |                             | **Spring Framework / Spring Boot Documentation**                                 | 📖 Reference | **Core**    |
+|                    |                             | **Spring MVC Documentation**                                                     | 📖 Reference | **Core**    |
+|                    |                             | **Spring WebFlux Documentation**                                                 | 📖 Reference | As needed   |
+|                    |                             | **Project Reactor Reference Guide**                                              | 📖 Reference | As needed   |
+|                    |                             | **Apache Tomcat Documentation**                                                  | 📖 Reference | As needed   |
+|                    |                             | **Netty Documentation**                                                          | 📖 Reference | As needed   |
 |                    | **Data**                    | **Designing Data-Intensive Applications (DDIA)**                                 | 📘 Learn     | **Core**    |
 |                    | ↳ **Database**              | **Database Official Documentation**                                              | 📖 Reference | **Core**    |
 |                    |                             | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN** | 📖 Reference | Recommended |
+|                    |                             | **HikariCP Documentation**                                                       | 📖 Reference | Recommended |
 |                    | ↳ **ORM**                   | **Hibernate ORM User Guide**                                                     | 📖 Reference | **Core**    |
 |                    |                             | **Jakarta Persistence Specification**                                            | 📜 Spec      | As needed   |
 |                    |                             | **Spring Data JPA Documentation**                                                | 📖 Reference | **Core**    |
@@ -95,7 +103,6 @@ Backend Engineering
 |                    | **Kubernetes**              | **Kubernetes Basics / Concepts**                                                 | 📘 Learn     | **Core**    |
 |                    |                             | **Kubernetes Tasks / Reference / API Documentation**                             | 📖 Reference | **Core**    |
 
-
 ### Primary Learning Track = Priority: Core AND Type: Learn or Course
 
 ```
@@ -106,7 +113,7 @@ Fundamentals
 
 Software
 ├─ Software Engineering      → A Philosophy of Software Design
-│  ├─ Testing                → Martin Fowler — Testing Articles
+│  ├─ Testing                
 │  └─ CI/CD
 ├─ Java                      → Effective Java
 ├─ JVM
