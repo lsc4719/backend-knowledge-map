@@ -26,7 +26,9 @@ Backend Engineering
 │
 ├── Production
 │   ├── Security
-│   └── Observability
+│   ├── Observability
+│   └── Experimentation
+│       └── A/B Testing
 │
 └── Infrastructure
     ├── AWS
@@ -94,6 +96,9 @@ Backend Engineering
 |                    |                             | **OWASP ASVS**                                                                   | 📜 Spec      | As needed   |
 |                    | **Observability**           | **Site Reliability Engineering — Google**                                        | 📘 Learn     | **Core**    |
 |                    |                             | **OpenTelemetry Documentation**                                                  | 📖 Reference | **Core**    |
+|                    | **Experimentation**         | **Trustworthy Online Controlled Experiments — Kohavi, Tang & Xu**                | 📘 Learn     | **Core**    |
+|                    |                             | **Optimizely Experimentation Documentation**                                     | 📖 Reference | Recommended |
+|                    |                             | **LaunchDarkly Documentation — Feature Flags / Progressive Delivery**            | 📖 Reference | Recommended |
 | **Infrastructure** | **AWS**                     | **Adrian Cantrill — AWS SAA → SAP**                                              | 🎓 Course    | **Core**    |
 |                    |                             | **AWS Documentation**                                                            | 📖 Reference | **Core**    |
 |                    |                             | **AWS Well-Architected Framework**                                               | 📖 Reference | Recommended |
@@ -106,7 +111,7 @@ Backend Engineering
 Fundamentals
 ├─ Computer Networking       → Kurose & Ross
 ├─ Computer Systems          → CSAPP
-└─ Distributed Systems       → DDIA
+└─ Distributed Systems      → DDIA
 
 Software
 ├─ Software Engineering      → A Philosophy of Software Design
@@ -124,7 +129,8 @@ Software
 
 Production
 ├─ Security                  → OWASP Top 10
-└─ Observability             → Site Reliability Engineering
+├─ Observability             → Site Reliability Engineering
+└─ Experimentation           → Trustworthy Online Controlled Experiments
 
 Infrastructure
 ├─ AWS                       → Cantrill SAA → SAP
