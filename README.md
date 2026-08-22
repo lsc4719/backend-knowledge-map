@@ -97,7 +97,7 @@ Backend Engineering
 |                    | ↳ **Cache**                 | **Redis Documentation**                                                                   | 📖 Reference | As needed   |
 |                    | ↳ **Messaging / Streaming** | **Apache Kafka Documentation**                                                            | 📖 Reference | As needed   |
 |                    | ↳ **Search**                | **OpenSearch / Elasticsearch Documentation**                                              | 📖 Reference | As needed   |
-| **Production**     | **Reliability**             | **Site Reliability Engineering — Google**                                                 | 📘 Learn     | **Core**    |
+| **Production**     | **Reliability**             | **Site Reliability Engineering — Google**                                                 | 📘 Learn     | Recommended |
 |                    | **Observability**           | **Observability Engineering, 2nd Edition — Majors, Fong-Jones & Miranda**                  | 📘 Learn     | Recommended |
 |                    |                             | **OpenTelemetry Documentation**                                                           | 📖 Reference | **Core**    |
 |                    | **Performance**             | **Systems Performance: Enterprise and the Cloud, 2nd Edition — Brendan Gregg**             | 📘 Learn     | Recommended |
@@ -138,7 +138,7 @@ Software
    └─ Search
 
 Production
-├─ Reliability               → Site Reliability Engineering
+├─ Reliability
 ├─ Observability
 ├─ Performance
 ├─ Security                  → OWASP Top 10:2025
