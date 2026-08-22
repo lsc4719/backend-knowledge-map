@@ -124,7 +124,7 @@ Fundamentals
 
 Software
 ├─ Software Engineering      → A Philosophy of Software Design, 2nd Edition
-│  ├─ API Design
+│  ├─ API Design             → API Design Patterns
 │  ├─ Testing
 │  └─ CI/CD
 ├─ Java                      → Effective Java, 3rd Edition
@@ -142,7 +142,7 @@ Production
 ├─ Observability
 ├─ Performance
 ├─ Security                  → OWASP Top 10:2025
-└─ Experimentation           → Trustworthy Online Controlled Experiments
+└─ Experimentation
    └─ A/B Testing
 
 Infrastructure
