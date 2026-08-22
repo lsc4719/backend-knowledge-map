@@ -79,7 +79,7 @@ Backend Engineering
 |                    | **JVM**                     | **Java Performance, 2nd Edition — Scott Oaks**                                            | 📘 Learn     | Recommended |
 |                    |                             | **Java Virtual Machine Specification (JVMS)**                                             | 📜 Spec      | As needed   |
 |                    |                             | **OpenJDK Documentation**                                                                 | 📖 Reference | As needed   |
-|                    | **Spring**                  | **Spring Start Here, 2nd Edition (MEAP) — Laurentiu Spilca**                              | 📘 Learn     | **Core**    |
+|                    | **Spring**                  | **Spring Start Here — Laurentiu Spilca**                                                  | 📘 Learn     | **Core**    |
 |                    |                             | **Spring Framework / Spring Boot Documentation**                                          | 📖 Reference | **Core**    |
 |                    |                             | **Spring MVC Documentation**                                                              | 📖 Reference | **Core**    |
 |                    |                             | **Spring WebFlux Documentation**                                                          | 📖 Reference | As needed   |
@@ -97,11 +97,11 @@ Backend Engineering
 |                    | ↳ **Cache**                 | **Redis Documentation**                                                                   | 📖 Reference | As needed   |
 |                    | ↳ **Messaging / Streaming** | **Apache Kafka Documentation**                                                            | 📖 Reference | As needed   |
 |                    | ↳ **Search**                | **OpenSearch / Elasticsearch Documentation**                                              | 📖 Reference | As needed   |
-| **Production**     | **Reliability**             | **Site Reliability Engineering — Google**                                                 | 📘 Learn     | **Core**    |
+| **Production**     | **Reliability**             | **Site Reliability Engineering — Google**                                                 | 📘 Learn     | Recommended |
 |                    | **Observability**           | **Observability Engineering, 2nd Edition — Majors, Fong-Jones & Miranda**                  | 📘 Learn     | Recommended |
 |                    |                             | **OpenTelemetry Documentation**                                                           | 📖 Reference | **Core**    |
 |                    | **Performance**             | **Systems Performance: Enterprise and the Cloud, 2nd Edition — Brendan Gregg**             | 📘 Learn     | Recommended |
-|                    | **Security**                | **OWASP Top 10:2025**                                                                      | 📘 Learn     | **Core**    |
+|                    | **Security**                | **OWASP Top 10:2025**                                                                     | 📘 Learn     | **Core**    |
 |                    |                             | **OWASP Cheat Sheet Series**                                                              | 📖 Reference | **Core**    |
 |                    |                             | **OWASP ASVS**                                                                            | 📜 Spec      | As needed   |
 |                    | **Experimentation**         | **Trustworthy Online Controlled Experiments — Kohavi, Tang & Xu**                         | 📘 Learn     | Recommended |
@@ -114,7 +114,7 @@ Backend Engineering
 
 ### Primary Learning Track
 
-Knowledge Map annotated with primary learning resources. Topics without a mapped resource remain part of the track.
+Knowledge Map annotated with a small set of primary learning resources. Topics without a mapped resource remain part of the track.
 
 ```
 Fundamentals
@@ -129,7 +129,7 @@ Software
 │  └─ CI/CD
 ├─ Java                      → Effective Java, 3rd Edition
 ├─ JVM
-├─ Spring                    → Spring Start Here, 2nd Edition (MEAP)
+├─ Spring                    → Spring Start Here
 └─ Data                      → DDIA, 2nd Edition
    ├─ Database
    ├─ ORM
@@ -138,11 +138,11 @@ Software
    └─ Search
 
 Production
-├─ Reliability               → Site Reliability Engineering
-├─ Observability             → Observability Engineering, 2nd Edition
-├─ Performance               → Systems Performance, 2nd Edition
+├─ Reliability
+├─ Observability
+├─ Performance
 ├─ Security                  → OWASP Top 10:2025
-└─ Experimentation           → Trustworthy Online Controlled Experiments
+└─ Experimentation
    └─ A/B Testing
 
 Infrastructure
