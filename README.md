@@ -96,8 +96,7 @@ Backend Engineering
 |                    |                             | **OWASP ASVS**                                                                   | 📜 Spec      | As needed   |
 |                    | **Observability**           | **Site Reliability Engineering — Google**                                        | 📘 Learn     | **Core**    |
 |                    |                             | **OpenTelemetry Documentation**                                                  | 📖 Reference | **Core**    |
-|                    | **Experimentation**         | **Trustworthy Online Controlled Experiments — Kohavi, Tang & Xu**                | 📘 Learn     | **Core**    |
-|                    |                             | **Optimizely Experimentation Documentation**                                     | 📖 Reference | Recommended |
+|                    | **Experimentation**         | **Trustworthy Online Controlled Experiments — Kohavi, Tang & Xu**                | 📘 Learn     | Recommended |
 |                    |                             | **LaunchDarkly Documentation — Feature Flags / Progressive Delivery**            | 📖 Reference | Recommended |
 | **Infrastructure** | **AWS**                     | **Adrian Cantrill — AWS SAA → SAP**                                              | 🎓 Course    | **Core**    |
 |                    |                             | **AWS Documentation**                                                            | 📖 Reference | **Core**    |
@@ -129,8 +128,7 @@ Software
 
 Production
 ├─ Security                  → OWASP Top 10
-├─ Observability             → Site Reliability Engineering
-└─ Experimentation           → Trustworthy Online Controlled Experiments
+└─ Observability             → Site Reliability Engineering
 
 Infrastructure
 ├─ AWS                       → Cantrill SAA → SAP
