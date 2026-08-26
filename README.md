@@ -133,8 +133,8 @@ Software
 │  ├─ API Design             → API Design Patterns
 │  ├─ Testing
 │  └─ CI/CD
-├─ Software Architecture     → Fundamentals of Software Architecture, 2nd Edition
-│  └─ Microservices          → Building Microservices, 2nd Edition
+├─ Software Architecture
+│  └─ Microservices
 ├─ Java                      → Effective Java, 3rd Edition
 ├─ JVM
 ├─ Spring                    → Spring Start Here
