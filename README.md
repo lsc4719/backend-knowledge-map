@@ -14,6 +14,9 @@ Backend Engineering
 │   │   ├── Testing
 │   │   └── CI/CD
 │   │
+│   ├── Software Architecture
+│   │   └── Microservices
+│   │
 │   ├── Java
 │   ├── JVM
 │   ├── Spring
@@ -73,6 +76,9 @@ Backend Engineering
 |                    | ↳ **CI/CD**                 | **Continuous Delivery — Humble & Farley**                                                 | 📘 Learn     | Recommended |
 |                    |                             | **Martin Fowler — Continuous Integration / Delivery**                                     | 📖 Reference | Recommended |
 |                    |                             | **LaunchDarkly Documentation — Feature Flags / Progressive Delivery**                     | 📖 Reference | Recommended |
+|                    | **Software Architecture**   | **Fundamentals of Software Architecture, 2nd Edition — Richards & Ford**                   | 📘 Learn     | Recommended |
+|                    | ↳ **Microservices**         | **Building Microservices, 2nd Edition — Sam Newman**                                      | 📘 Learn     | Recommended |
+|                    |                             | **microservices.io — Chris Richardson**                                                   | 📖 Reference | As needed   |
 |                    | **Java**                    | **Effective Java, 3rd Edition**                                                           | 📘 Learn     | **Core**    |
 |                    |                             | **dev.java — Learn Java**                                                                 | 📖 Reference | **Core**    |
 |                    |                             | **Java Language Specification (JLS)**                                                     | 📜 Spec      | As needed   |
@@ -127,6 +133,8 @@ Software
 │  ├─ API Design             → API Design Patterns
 │  ├─ Testing
 │  └─ CI/CD
+├─ Software Architecture
+│  └─ Microservices
 ├─ Java                      → Effective Java, 3rd Edition
 ├─ JVM
 ├─ Spring                    → Spring Start Here
