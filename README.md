@@ -17,8 +17,14 @@ Backend Engineering
 │   ├── Software Architecture
 │   │   └── Microservices
 │   │
-│   ├── Java
-│   ├── Spring
+│   ├── Backend Ecosystems
+│   │   ├── JVM Ecosystem
+│   │   │   ├── Java
+│   │   │   └── Spring
+│   │   ├── Node.js Ecosystem
+│   │   ├── Python Ecosystem
+│   │   ├── .NET Ecosystem
+│   │   └── Go Ecosystem
 │   │
 │   └── Data
 │       ├── Database
@@ -78,19 +84,24 @@ Backend Engineering
 |                    | **Software Architecture**   | **Fundamentals of Software Architecture, 2nd Edition — Richards & Ford**                   | 📘 Learn     | Recommended |
 |                    | ↳ **Microservices**         | **Building Microservices, 2nd Edition — Sam Newman**                                      | 📘 Learn     | Recommended |
 |                    |                             | **microservices.io — Chris Richardson**                                                   | 📖 Reference | As needed   |
-|                    | **Java**                    | **Effective Java, 3rd Edition**                                                           | 📘 Learn     | **Core**    |
-|                    |                             | **dev.java — Learn Java**                                                                 | 📖 Reference | **Core**    |
-|                    |                             | **Java Language Specification (JLS)**                                                     | 📜 Spec      | As needed   |
-|                    |                             | **Java Performance, 2nd Edition — Scott Oaks**                                            | 📘 Learn     | Recommended |
+|                    | **Backend Ecosystems**      |                                                                                           |              |             |
+|                    | ↳ **JVM Ecosystem**         | **Java Performance, 2nd Edition — Scott Oaks**                                            | 📘 Learn     | Recommended |
 |                    |                             | **Java Virtual Machine Specification (JVMS)**                                             | 📜 Spec      | As needed   |
 |                    |                             | **OpenJDK Documentation**                                                                 | 📖 Reference | As needed   |
-|                    | **Spring**                  | **Spring Start Here — Laurentiu Spilca**                                                  | 📘 Learn     | **Core**    |
+|                    | ↳ ↳ **Java**                | **Effective Java, 3rd Edition**                                                           | 📘 Learn     | **Core**    |
+|                    |                             | **dev.java — Learn Java**                                                                 | 📖 Reference | **Core**    |
+|                    |                             | **Java Language Specification (JLS)**                                                     | 📜 Spec      | As needed   |
+|                    | ↳ ↳ **Spring**              | **Spring Start Here — Laurentiu Spilca**                                                  | 📘 Learn     | **Core**    |
 |                    |                             | **Spring Framework / Spring Boot Documentation**                                          | 📖 Reference | **Core**    |
 |                    |                             | **Spring MVC Documentation**                                                              | 📖 Reference | **Core**    |
 |                    |                             | **Spring WebFlux Documentation**                                                          | 📖 Reference | As needed   |
 |                    |                             | **Project Reactor Reference Guide**                                                       | 📖 Reference | As needed   |
 |                    |                             | **Apache Tomcat Documentation**                                                           | 📖 Reference | As needed   |
 |                    |                             | **Netty Documentation**                                                                   | 📖 Reference | As needed   |
+|                    | ↳ **Node.js Ecosystem**     |                                                                                           |              |             |
+|                    | ↳ **Python Ecosystem**      |                                                                                           |              |             |
+|                    | ↳ **.NET Ecosystem**        |                                                                                           |              |             |
+|                    | ↳ **Go Ecosystem**          |                                                                                           |              |             |
 |                    | **Data**                    | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      | 📘 Learn     | **Core**    |
 |                    | ↳ **Database**              | **Database Official Documentation**                                                       | 📖 Reference | **Core**    |
 |                    |                             | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | Recommended |
@@ -134,8 +145,14 @@ Software
 │  └─ CI/CD
 ├─ Software Architecture
 │  └─ Microservices
-├─ Java                      → Effective Java, 3rd Edition
-├─ Spring                    → Spring Start Here
+├─ Backend Ecosystems
+│  ├─ JVM Ecosystem
+│  │  ├─ Java                → Effective Java, 3rd Edition
+│  │  └─ Spring              → Spring Start Here
+│  ├─ Node.js Ecosystem
+│  ├─ Python Ecosystem
+│  ├─ .NET Ecosystem
+│  └─ Go Ecosystem
 └─ Data                      → DDIA, 2nd Edition
    ├─ Database
    ├─ ORM
