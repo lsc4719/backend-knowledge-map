@@ -18,9 +18,14 @@ Backend Engineering
 │   │   └── Microservices
 │   │
 │   ├── Backend Ecosystems
-│   │   └── JVM Ecosystem
-│   │       ├── Java
-│   │       └── Spring
+│   │   ├── JVM Ecosystem
+│   │   │   ├── Java
+│   │   │   └── Spring
+│   │   ├── Node.js Ecosystem
+│   │   │   └── TypeScript
+│   │   ├── Python Ecosystem
+│   │   ├── .NET Ecosystem
+│   │   └── Go Ecosystem
 │   │
 │   └── Data
 │       ├── Database
@@ -94,6 +99,11 @@ Backend Engineering
 |                    |                             | **Project Reactor Reference Guide**                                                       | 📖 Reference | As needed   |
 |                    |                             | **Apache Tomcat Documentation**                                                           | 📖 Reference | As needed   |
 |                    |                             | **Netty Documentation**                                                                   | 📖 Reference | As needed   |
+|                    | ↳ **Node.js Ecosystem**     |                                                                                           |              |             |
+|                    | ↳ ↳ **TypeScript**          |                                                                                           |              |             |
+|                    | ↳ **Python Ecosystem**      |                                                                                           |              |             |
+|                    | ↳ **.NET Ecosystem**        |                                                                                           |              |             |
+|                    | ↳ **Go Ecosystem**          |                                                                                           |              |             |
 |                    | **Data**                    | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      | 📘 Learn     | **Core**    |
 |                    | ↳ **Database**              | **Database Official Documentation**                                                       | 📖 Reference | **Core**    |
 |                    |                             | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | Recommended |
@@ -138,9 +148,14 @@ Software
 ├─ Software Architecture
 │  └─ Microservices
 ├─ Backend Ecosystems
-│  └─ JVM Ecosystem
-│     ├─ Java                → Effective Java, 3rd Edition
-│     └─ Spring              → Spring Start Here
+│  ├─ JVM Ecosystem
+│  │  ├─ Java                → Effective Java, 3rd Edition
+│  │  └─ Spring              → Spring Start Here
+│  ├─ Node.js Ecosystem
+│  │  └─ TypeScript
+│  ├─ Python Ecosystem
+│  ├─ .NET Ecosystem
+│  └─ Go Ecosystem
 └─ Data                      → DDIA, 2nd Edition
    ├─ Database
    ├─ ORM
