@@ -125,7 +125,7 @@ Backend Engineering
 |                    |                             | **AWS Documentation**                                                                     | 📖 Reference | **Core**    |
 |                    |                             | **AWS Well-Architected Framework**                                                        | 📖 Reference | Recommended |
 |                    |                             | **Amazon Builders' Library**                                                              | 📄 Deep Dive | Recommended |
-|                    | **Kubernetes**              | **Kubernetes Basics / Concepts**                                                          | 📘 Learn     | **Core**    |
+|                    | **Kubernetes**              | **Kubernetes Documentation — Basics / Concepts**                                          | 📘 Learn     | **Core**    |
 |                    |                             | **Kubernetes Tasks / Reference / API Documentation**                                      | 📖 Reference | **Core**    |
 
 ### Primary Learning Track
@@ -170,5 +170,5 @@ Production
 
 Infrastructure
 ├─ AWS                       → Cantrill SAA → SAP
-└─ Kubernetes                → Kubernetes Basics → Concepts
+└─ Kubernetes                → Kubernetes Documentation — Basics / Concepts
 ```
