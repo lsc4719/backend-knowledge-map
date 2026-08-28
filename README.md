@@ -18,7 +18,6 @@ Backend Engineering
 │   │   └── Microservices
 │   │
 │   ├── Java
-│   ├── JVM
 │   ├── Spring
 │   │
 │   └── Data
@@ -82,7 +81,7 @@ Backend Engineering
 |                    | **Java**                    | **Effective Java, 3rd Edition**                                                           | 📘 Learn     | **Core**    |
 |                    |                             | **dev.java — Learn Java**                                                                 | 📖 Reference | **Core**    |
 |                    |                             | **Java Language Specification (JLS)**                                                     | 📜 Spec      | As needed   |
-|                    | **JVM**                     | **Java Performance, 2nd Edition — Scott Oaks**                                            | 📘 Learn     | Recommended |
+|                    |                             | **Java Performance, 2nd Edition — Scott Oaks**                                            | 📘 Learn     | Recommended |
 |                    |                             | **Java Virtual Machine Specification (JVMS)**                                             | 📜 Spec      | As needed   |
 |                    |                             | **OpenJDK Documentation**                                                                 | 📖 Reference | As needed   |
 |                    | **Spring**                  | **Spring Start Here — Laurentiu Spilca**                                                  | 📘 Learn     | **Core**    |
@@ -136,7 +135,6 @@ Software
 ├─ Software Architecture
 │  └─ Microservices
 ├─ Java                      → Effective Java, 3rd Edition
-├─ JVM
 ├─ Spring                    → Spring Start Here
 └─ Data                      → DDIA, 2nd Edition
    ├─ Database
