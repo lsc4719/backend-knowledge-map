@@ -22,7 +22,6 @@ Backend Engineering
 │   │   │   ├── Java
 │   │   │   └── Spring
 │   │   ├── Node.js Ecosystem
-│   │   │   └── TypeScript
 │   │   ├── Python Ecosystem
 │   │   ├── .NET Ecosystem
 │   │   └── Go Ecosystem
@@ -100,7 +99,6 @@ Backend Engineering
 |                    |                             | **Apache Tomcat Documentation**                                                           | 📖 Reference | As needed   |
 |                    |                             | **Netty Documentation**                                                                   | 📖 Reference | As needed   |
 |                    | ↳ **Node.js Ecosystem**     |                                                                                           |              |             |
-|                    | ↳ ↳ **TypeScript**          |                                                                                           |              |             |
 |                    | ↳ **Python Ecosystem**      |                                                                                           |              |             |
 |                    | ↳ **.NET Ecosystem**        |                                                                                           |              |             |
 |                    | ↳ **Go Ecosystem**          |                                                                                           |              |             |
@@ -152,7 +150,6 @@ Software
 │  │  ├─ Java                → Effective Java, 3rd Edition
 │  │  └─ Spring              → Spring Start Here
 │  ├─ Node.js Ecosystem
-│  │  └─ TypeScript
 │  ├─ Python Ecosystem
 │  ├─ .NET Ecosystem
 │  └─ Go Ecosystem
