@@ -103,8 +103,7 @@ Backend Engineering
 |                    | ↳ **.NET Ecosystem**        |                                                                                           |              |             |
 |                    | ↳ **Go Ecosystem**          |                                                                                           |              |             |
 |                    | **Data**                    | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      | 📘 Learn     | **Core**    |
-|                    | ↳ **Database**              | **Database Official Documentation**                                                       | 📖 Reference | **Core**    |
-|                    |                             | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | Recommended |
+|                    | ↳ **Database**              | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | Recommended |
 |                    |                             | **HikariCP Documentation**                                                                | 📖 Reference | Recommended |
 |                    | ↳ **ORM**                   | **Hibernate ORM User Guide**                                                              | 📖 Reference | **Core**    |
 |                    |                             | **Jakarta Persistence Specification**                                                     | 📜 Spec      | As needed   |
@@ -128,47 +127,3 @@ Backend Engineering
 |                    | **Kubernetes**              | **Kubernetes Documentation — Basics / Concepts**                                          | 📘 Learn     | **Core**    |
 |                    |                             | **Kubernetes Tasks / Reference / API Documentation**                                      | 📖 Reference | **Core**    |
 
-### Primary Learning Track
-
-Knowledge Map annotated with a small set of primary learning resources. Topics without a mapped resource remain part of the track.
-
-```
-Fundamentals
-├─ Computer Networking       → Kurose & Ross, 9th Edition
-├─ Computer Systems          → CSAPP, 3rd Edition
-└─ Distributed Systems       → DDIA, 2nd Edition
-
-Software
-├─ Software Engineering      → A Philosophy of Software Design, 2nd Edition
-│  ├─ API Design             → API Design Patterns
-│  ├─ Testing
-│  └─ CI/CD
-├─ Software Architecture
-│  └─ Microservices
-├─ Backend Ecosystems
-│  ├─ JVM Ecosystem
-│  │  ├─ Java                → Effective Java, 3rd Edition
-│  │  └─ Spring              → Spring Start Here
-│  ├─ Node.js Ecosystem
-│  ├─ Python Ecosystem
-│  ├─ .NET Ecosystem
-│  └─ Go Ecosystem
-└─ Data                      → DDIA, 2nd Edition
-   ├─ Database
-   ├─ ORM
-   ├─ Cache
-   ├─ Messaging / Streaming
-   └─ Search
-
-Production
-├─ Reliability
-├─ Observability
-├─ Performance
-├─ Security                  → OWASP Top 10:2025
-└─ Experimentation
-   └─ A/B Testing
-
-Infrastructure
-├─ AWS                       → Cantrill SAA → SAP
-└─ Kubernetes                → Kubernetes Documentation — Basics / Concepts
-```
