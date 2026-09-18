@@ -103,8 +103,8 @@ Backend Engineering
 |                    | ↳ **.NET Ecosystem**        |                                                                                           |              |             |
 |                    | ↳ **Go Ecosystem**          |                                                                                           |              |             |
 |                    | **Data**                    | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      | 📘 Learn     | **Core**    |
-|                    | ↳ **Database**              | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | Recommended |
-|                    |                             | **HikariCP Documentation**                                                                | 📖 Reference | Recommended |
+|                    | ↳ **Database**              | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | **Core** |
+|                    |                             | **HikariCP Documentation**                                                                | 📖 Reference | **Core** |
 |                    | ↳ **ORM**                   | **Hibernate ORM User Guide**                                                              | 📖 Reference | **Core**    |
 |                    |                             | **Jakarta Persistence Specification**                                                     | 📜 Spec      | As needed   |
 |                    |                             | **Spring Data JPA Documentation**                                                         | 📖 Reference | **Core**    |
