@@ -1,4 +1,4 @@
-### Knowledge Map
+### Topics
 
 ```
 Backend Engineering
@@ -48,82 +48,67 @@ Backend Engineering
 
 ### Resources
 
-| Type             | Meaning                                                   |
-| ---------------- | --------------------------------------------------------- |
-| 📘 **Learn**     | Material for systematic, start-to-finish learning        |
-| 📖 **Reference** | Official documentation or references to consult as needed |
-| 📜 **Spec**      | Standards and specifications                              |
-| 📄 **Deep Dive** | Material for deeper study after the fundamentals          |
-| 🎓 **Course**    | Instructor-led or lecture-based learning material         |
-
-| Priority        | Meaning                                             |
-| --------------- | --------------------------------------------------- |
-| **Core**        | Prioritize for backend engineering fundamentals    |
-| **Recommended** | Worth studying after Core resources                 |
-| **As needed**   | Consult when a practical need arises                |
-| **Optional**    | Study depending on interest or context              |
-
-| Category           | Topic                       | Resource                                                                                  | Type         | Priority    |
-| ------------------ | --------------------------- | ----------------------------------------------------------------------------------------- | ------------ | ----------- |
-| **Fundamentals**   | **Computer Networking**     | **Computer Networking: A Top-Down Approach, 9th Edition — Kurose & Ross**                  | 📘 Learn     | **Core**    |
-|                    |                             | **MDN Web Docs — HTTP**                                                                   | 📖 Reference | **Core**    |
-|                    |                             | **RFC 9110 / 9111 / 9112**                                                                | 📜 Spec      | As needed   |
-|                    | **Computer Systems**        | **Computer Systems: A Programmer's Perspective (CSAPP), 3rd Edition**                      | 📘 Learn     | **Core**    |
-|                    | **Distributed Systems**     | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      | 📘 Learn     | **Core**    |
-|                    |                             | **Raft / Dynamo / Spanner Papers**                                                        | 📄 Deep Dive | As needed   |
-| **Software**       | **Software Engineering**    | **A Philosophy of Software Design, 2nd Edition**                                           | 📘 Learn     | **Core**    |
-|                    |                             | **Refactoring: Improving the Design of Existing Code, 2nd Edition — Martin Fowler**        | 📘 Learn     | Recommended |
-|                    | ↳ **API Design**            | **API Design Patterns — JJ Geewax**                                                       | 📘 Learn     | **Core**    |
-|                    | ↳ **Testing**               | **Martin Fowler — Testing Articles**                                                      | 📄 Deep Dive | Recommended |
-|                    |                             | **JUnit User Guide**                                                                      | 📖 Reference | **Core**    |
-|                    |                             | **Testcontainers Documentation**                                                          | 📖 Reference | Recommended |
-|                    |                             | **Mockito Documentation**                                                                 | 📖 Reference | As needed   |
-|                    | ↳ **CI/CD**                 | **Continuous Delivery — Humble & Farley**                                                 | 📘 Learn     | Recommended |
-|                    |                             | **Martin Fowler — Continuous Integration / Delivery**                                     | 📖 Reference | Recommended |
-|                    |                             | **LaunchDarkly Documentation — Feature Flags / Progressive Delivery**                     | 📖 Reference | Recommended |
-|                    | **Software Architecture**   | **Fundamentals of Software Architecture, 2nd Edition — Richards & Ford**                   | 📘 Learn     | Recommended |
-|                    | ↳ **Microservices**         | **Building Microservices, 2nd Edition — Sam Newman**                                      | 📘 Learn     | Recommended |
-|                    |                             | **microservices.io — Chris Richardson**                                                   | 📖 Reference | As needed   |
-|                    | **Backend Ecosystems**      |                                                                                           |              |             |
-|                    | ↳ **JVM Ecosystem**         | **Java Performance, 2nd Edition — Scott Oaks**                                            | 📘 Learn     | Recommended |
-|                    |                             | **Java Virtual Machine Specification (JVMS)**                                             | 📜 Spec      | As needed   |
-|                    |                             | **OpenJDK Documentation**                                                                 | 📖 Reference | As needed   |
-|                    | ↳ ↳ **Java**                | **Effective Java, 3rd Edition**                                                           | 📘 Learn     | **Core**    |
-|                    |                             | **dev.java — Learn Java**                                                                 | 📖 Reference | **Core**    |
-|                    |                             | **Java Language Specification (JLS)**                                                     | 📜 Spec      | As needed   |
-|                    | ↳ ↳ **Spring**              | **Spring Start Here — Laurentiu Spilca**                                                  | 📘 Learn     | **Core**    |
-|                    |                             | **Spring Framework / Spring Boot Documentation**                                          | 📖 Reference | **Core**    |
-|                    |                             | **Spring MVC Documentation**                                                              | 📖 Reference | **Core**    |
-|                    |                             | **Spring WebFlux Documentation**                                                          | 📖 Reference | As needed   |
-|                    |                             | **Project Reactor Reference Guide**                                                       | 📖 Reference | As needed   |
-|                    |                             | **Apache Tomcat Documentation**                                                           | 📖 Reference | As needed   |
-|                    |                             | **Netty Documentation**                                                                   | 📖 Reference | As needed   |
-|                    | ↳ **Node.js Ecosystem**     |                                                                                           |              |             |
-|                    | ↳ **Python Ecosystem**      |                                                                                           |              |             |
-|                    | ↳ **.NET Ecosystem**        |                                                                                           |              |             |
-|                    | ↳ **Go Ecosystem**          |                                                                                           |              |             |
-|                    | **Data**                    | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      | 📘 Learn     | **Core**    |
-|                    | ↳ **Database**              | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          | 📖 Reference | **Core** |
-|                    |                             | **HikariCP Documentation**                                                                | 📖 Reference | **Core** |
-|                    | ↳ **ORM**                   | **Hibernate ORM User Guide**                                                              | 📖 Reference | **Core**    |
-|                    |                             | **Jakarta Persistence Specification**                                                     | 📜 Spec      | As needed   |
-|                    |                             | **Spring Data JPA Documentation**                                                         | 📖 Reference | **Core**    |
-|                    |                             | **High-Performance Java Persistence**                                                     | 📄 Deep Dive | Optional    |
-|                    | ↳ **Cache**                 | **Redis Documentation**                                                                   | 📖 Reference | As needed   |
-|                    | ↳ **Messaging / Streaming** | **Apache Kafka Documentation**                                                            | 📖 Reference | As needed   |
-|                    | ↳ **Search**                | **OpenSearch / Elasticsearch Documentation**                                              | 📖 Reference | As needed   |
-| **Production**     | **Reliability**             | **Site Reliability Engineering — Google**                                                 | 📘 Learn     | Recommended |
-|                    | **Observability**           | **Observability Engineering, 2nd Edition — Majors, Fong-Jones & Miranda**                  | 📘 Learn     | Recommended |
-|                    |                             | **OpenTelemetry Documentation**                                                           | 📖 Reference | **Core**    |
-|                    | **Performance**             | **Systems Performance: Enterprise and the Cloud, 2nd Edition — Brendan Gregg**             | 📘 Learn     | Recommended |
-|                    | **Security**                | **OWASP Top 10:2025**                                                                     | 📘 Learn     | **Core**    |
-|                    |                             | **OWASP Cheat Sheet Series**                                                              | 📖 Reference | **Core**    |
-|                    |                             | **OWASP ASVS**                                                                            | 📜 Spec      | As needed   |
-|                    | **Experimentation**         | **Trustworthy Online Controlled Experiments — Kohavi, Tang & Xu**                         | 📘 Learn     | Recommended |
-| **Infrastructure** | **AWS**                     | **Adrian Cantrill — AWS SAA → SAP**                                                       | 🎓 Course    | **Core**    |
-|                    |                             | **AWS Documentation**                                                                     | 📖 Reference | **Core**    |
-|                    |                             | **AWS Well-Architected Framework**                                                        | 📖 Reference | Recommended |
-|                    |                             | **Amazon Builders' Library**                                                              | 📄 Deep Dive | Recommended |
-|                    | **Kubernetes**              | **Kubernetes Documentation — Basics / Concepts**                                          | 📘 Learn     | **Core**    |
-|                    |                             | **Kubernetes Tasks / Reference / API Documentation**                                      | 📖 Reference | **Core**    |
+| Category           | Topic                       | Resource                                                                                  |
+| ------------------ | --------------------------- | ----------------------------------------------------------------------------------------- |
+| **Fundamentals**   | **Computer Networking**     | **Computer Networking: A Top-Down Approach, 9th Edition — Kurose & Ross**                  |
+|                    |                             | **MDN Web Docs — HTTP**                                                                   |
+|                    |                             | **RFC 9110 / 9111 / 9112**                                                                |
+|                    | **Computer Systems**        | **Computer Systems: A Programmer's Perspective (CSAPP), 3rd Edition**                      |
+|                    | **Distributed Systems**     | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      |
+|                    |                             | **Raft / Dynamo / Spanner Papers**                                                        |
+| **Software**       | **Software Engineering**    | **A Philosophy of Software Design, 2nd Edition**                                           |
+|                    |                             | **Refactoring: Improving the Design of Existing Code, 2nd Edition — Martin Fowler**        |
+|                    | ↳ **API Design**            | **API Design Patterns — JJ Geewax**                                                       |
+|                    | ↳ **Testing**               | **Martin Fowler — Testing Articles**                                                      |
+|                    |                             | **JUnit User Guide**                                                                      |
+|                    |                             | **Testcontainers Documentation**                                                          |
+|                    |                             | **Mockito Documentation**                                                                 |
+|                    | ↳ **CI/CD**                 | **Continuous Delivery — Humble & Farley**                                                 |
+|                    |                             | **Martin Fowler — Continuous Integration / Delivery**                                     |
+|                    |                             | **LaunchDarkly Documentation — Feature Flags / Progressive Delivery**                     |
+|                    | **Software Architecture**   | **Fundamentals of Software Architecture, 2nd Edition — Richards & Ford**                   |
+|                    | ↳ **Microservices**         | **Building Microservices, 2nd Edition — Sam Newman**                                      |
+|                    |                             | **microservices.io — Chris Richardson**                                                   |
+|                    | **Backend Ecosystems**      |                                                                                           |
+|                    | ↳ **JVM Ecosystem**         | **Java Performance, 2nd Edition — Scott Oaks**                                            |
+|                    |                             | **Java Virtual Machine Specification (JVMS)**                                             |
+|                    |                             | **OpenJDK Documentation**                                                                 |
+|                    | ↳ ↳ **Java**                | **Effective Java, 3rd Edition**                                                           |
+|                    |                             | **dev.java — Learn Java**                                                                 |
+|                    |                             | **Java Language Specification (JLS)**                                                     |
+|                    | ↳ ↳ **Spring**              | **Spring Start Here — Laurentiu Spilca**                                                  |
+|                    |                             | **Spring Framework / Spring Boot Documentation**                                          |
+|                    |                             | **Spring MVC Documentation**                                                              |
+|                    |                             | **Spring WebFlux Documentation**                                                          |
+|                    |                             | **Project Reactor Reference Guide**                                                       |
+|                    |                             | **Apache Tomcat Documentation**                                                           |
+|                    |                             | **Netty Documentation**                                                                   |
+|                    | ↳ **Node.js Ecosystem**     |                                                                                           |
+|                    | ↳ **Python Ecosystem**      |                                                                                           |
+|                    | ↳ **.NET Ecosystem**        |                                                                                           |
+|                    | ↳ **Go Ecosystem**          |                                                                                           |
+|                    | **Data**                    | **Designing Data-Intensive Applications (DDIA), 2nd Edition — Kleppmann & Riccomini**      |
+|                    | ↳ **Database**              | **PostgreSQL Documentation — Transactions / MVCC / Locking / Indexes / EXPLAIN**          |
+|                    |                             | **HikariCP Documentation**                                                                |
+|                    | ↳ **ORM**                   | **Hibernate ORM User Guide**                                                              |
+|                    |                             | **Jakarta Persistence Specification**                                                     |
+|                    |                             | **Spring Data JPA Documentation**                                                         |
+|                    |                             | **High-Performance Java Persistence**                                                     |
+|                    | ↳ **Cache**                 | **Redis Documentation**                                                                   |
+|                    | ↳ **Messaging / Streaming** | **Apache Kafka Documentation**                                                            |
+|                    | ↳ **Search**                | **OpenSearch / Elasticsearch Documentation**                                              |
+| **Production**     | **Reliability**             | **Site Reliability Engineering — Google**                                                 |
+|                    | **Observability**           | **Observability Engineering, 2nd Edition — Majors, Fong-Jones & Miranda**                  |
+|                    |                             | **OpenTelemetry Documentation**                                                           |
+|                    | **Performance**             | **Systems Performance: Enterprise and the Cloud, 2nd Edition — Brendan Gregg**             |
+|                    | **Security**                | **OWASP Top 10:2025**                                                                     |
+|                    |                             | **OWASP Cheat Sheet Series**                                                              |
+|                    |                             | **OWASP ASVS**                                                                            |
+|                    | **Experimentation**         | **Trustworthy Online Controlled Experiments — Kohavi, Tang & Xu**                         |
+| **Infrastructure** | **AWS**                     | **Adrian Cantrill — AWS SAA → SAP**                                                       |
+|                    |                             | **AWS Documentation**                                                                     |
+|                    |                             | **AWS Well-Architected Framework**                                                        |
+|                    |                             | **Amazon Builders' Library**                                                              |
+|                    | **Kubernetes**              | **Kubernetes Documentation — Basics / Concepts**                                          |
+|                    |                             | **Kubernetes Tasks / Reference / API Documentation**                                      |
 
